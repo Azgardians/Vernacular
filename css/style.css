@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 body {
     font-family: "Lato" , sans-serif;
@@ -8,10 +8,11 @@ body {
 }
 
 .head .navitem a{
-    color: #333 !important;
+    color: var(--dark-color) !important;
 }
 .navbar-brand p{
     color: var(--primary-color);
+    margin-top: 10px;
     letter-spacing: 5px;
 }
 .head .active a {
@@ -44,12 +45,9 @@ body {
     font-size: 50px;
     font-weight: 700;
 }
-.hero-left p{
-    color: #333;
-    opacity: 0.6;
-}
+
 .hero-left button{
-    background-color: #333;
+    background-color: var(--dark-color);
     padding: 10px 40px;
     margin: 20px 20px;
     color: #fff;
@@ -60,4 +58,29 @@ body {
 }
 .hero-right img {
     width: 500px;
+}
+
+.app-features{
+    position: relative;
+    padding: 8rem 0;
+}
+.app-content{
+    position: relative;
+    padding: 4rem 0;
+}
+.app-content i{
+    color: var(--primary-color);
+}
+.app-content h4{
+    color: var(--dark-color);
+    font-weight: 800;
+}
+.app-content p{
+    font-size: 18px;
+}
+/* .app-features .image {
+    justify-self: flex-end;
+} */
+.app-features img{
+    width: 200px;
 }

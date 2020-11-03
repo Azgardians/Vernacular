@@ -1,8 +1,17 @@
 :root {
     --primary-color : #2D5DA1 ;
-    --secondary-color : #ADD8E6;
+    --secondary-color : #d6ebf2;
+    --dark-color : #2c3e4c;
 }
 
 .btn-primary {
     background-color: var(--primary-color);
+}
+
+.primary-text {
+    color: var(--primary-color);
+}
+.lead{
+    color: #333;
+    opacity: 0.8;
 }
