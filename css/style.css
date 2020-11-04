@@ -22,11 +22,11 @@ body {
     padding: 10px 40px;
     border-radius: 50px;
 }
-.hero{
+#hero{
     padding: 8rem 0;
     position: relative;
 }
-.hero::before{
+#hero::before{
     content: "";
     position: absolute;
     background-color: var(--secondary-color);
@@ -60,9 +60,9 @@ body {
     width: 500px;
 }
 
-.app-features{
+#app-features{
     position: relative;
-    padding: 8rem 0;
+    padding: 8rem 0 0 0;
 }
 .app-content{
     position: relative;
@@ -78,9 +78,71 @@ body {
 .app-content p{
     font-size: 18px;
 }
-/* .app-features .image {
+/* #app-features .image {
     justify-self: flex-end;
 } */
-.app-features img{
+#app-features img{
     width: 200px;
+}
+#features{
+    padding-top: 4rem;
+}
+#features .lead {
+    opacity: 0.9;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--dark-color);
+}
+#features .check_icon{
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+.feature-content{
+    margin: 3rem 0;
+}
+#features ul{
+    list-style-type: none;
+}
+
+#gallery {
+    padding-top: 4rem;
+}
+#gallery .lead {
+    opacity: 0.9;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--dark-color);
+}
+
+
+
+
+
+
+#testimonials {
+    padding-top: 4rem;
+    background-color: var(--secondary-color);
+}
+
+
+
+
+#price {
+    padding-top: 4rem;
+}
+
+
+
+
+
+#faq {
+    padding-top: 4rem;
+    background-color: var(--secondary-color);
+}
+
+
+
+
+#contact {
+    padding-top: 4rem;
 }

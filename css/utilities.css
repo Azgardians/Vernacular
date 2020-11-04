@@ -1,6 +1,6 @@
 :root {
     --primary-color : #2D5DA1 ;
-    --secondary-color : #d6ebf2;
+    --secondary-color : #eef7fa;
     --dark-color : #2c3e4c;
 }
 
@@ -11,7 +11,20 @@
 .primary-text {
     color: var(--primary-color);
 }
-.lead{
-    color: #333;
-    opacity: 0.8;
+.dark-text{
+    color: var(--dark-color);
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.light-lead{
+    color: var(--dark-color);
+    opacity: 0.7;
+    margin: 20px 0;
+}
+.lead {
+    opacity: 0.9;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 20px 0;
+    color: var(--dark-color);
 }
